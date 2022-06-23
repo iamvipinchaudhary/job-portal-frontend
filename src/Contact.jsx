@@ -22,7 +22,8 @@ const Contact = () => {
 
     const formSubmit = (e) => {
         e.preventDefault(); // it will not refresh the page while submiting the form
-        alert(`My name is ${data.fullname} and my mobile number is ${data.phone} and my Email Id is ${data.email} my question is ${data.message}`)
+        alert(`My name is ${data.fullname} and my mobile number is ${data.phone} and my Email Id is ${data.email} 
+my question is :- ${data.message}`)
     };
     return (
         <>
@@ -30,7 +31,7 @@ const Contact = () => {
                 <h1 className="text-center" >Contact Us</h1>
             </div>
             <div className="container contact_div">
-                <div div className="col-md-6 col-10 mx-auto">
+                <div className="col-md-6 col-10 mx-auto">
                     <form onSubmit={formSubmit}>
 
                         <div class="mb-3">
@@ -61,7 +62,7 @@ const Contact = () => {
 
                 </div>
 
-            </div>
+            </div >
         </>
     );
 };

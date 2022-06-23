@@ -82,6 +82,7 @@
   border: 2px solid #565387;
   text-decoration: none;
 
+
 }
 
 #header .btn-get-started:hover {
@@ -155,6 +156,17 @@
 }
 
 
+.footer {
+  position: sticky;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+  /* Height of the footer */
+
+  background-color: papayawhip;
+  color: black;
+  text-align: center;
+
+}
 
 
 
@@ -172,3 +184,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+.jp_banner_main_jobs_wrapper {
+  float: left;
+  width: 100%;
+  margin-top: 40px;
+  padding-bottom: 150px;
+}
+
+.jp_banner_main_jobs li {
+  float: left;
+  margin-left: 20px;
+}
+
+.jp_banner_main_jobs li:first-child {
+  margin-left: 0;
+  color: black;
+}
+
+.jp_banner_main_jobs li i {
+  padding-right: 5px;
+  color: #23c0e9;
+}
+
+.jp_banner_main_jobs li a {
+  color: black;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+
+}
+
+.jp_banner_main_jobs li a:hover {
+  color: #23c0e9;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}

@@ -14,9 +14,7 @@ const Common = (props) => {
                                     <h1> {props.name}
                                         <strong className="brand-name"></strong>
                                     </h1>
-                                    <h2 className="my-3">
-                                        Technocolabs, India's first job platform, connects startup founders, business owners, recruiters, and HR heads directly to job seekers and candidates. Technocolabs intelligent AI-matching algorithms, inbuilt chat, and verification features make it possible to schedule interviews within the app. It connects candidates with decision-makers quickly.
-                                    </h2>
+
                                     <div className="mt-3">
                                         <NavLink to={props.visit} className="btn-get-started ">
                                             {props.btnname}

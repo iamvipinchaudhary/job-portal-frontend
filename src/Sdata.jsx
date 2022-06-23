@@ -8,7 +8,7 @@ import software from "../src/images/f.jpg";
 const Sdata = [
     {
         imgsrc: web,
-        title: "web development",
+        title: "Web development",
     },
 
     {

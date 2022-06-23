@@ -23,9 +23,9 @@ const Navbar = () => {
 
 
 
-                                        <li className="nav-item">
+                                        {/* <li className="nav-item">
                                             <NavLink activeClassName='menu_active' className="nav-link" to="/service">Services</NavLink>
-                                        </li>
+                                        </li> */}
 
                                         <li className="nav-item">
                                             <NavLink activeClassName='menu_active' className="nav-link" to="/about">About</NavLink >
@@ -33,6 +33,12 @@ const Navbar = () => {
 
                                         <li className="nav-item">
                                             <NavLink activeClassName='menu_active' className="nav-link" to="/contact">Contact</NavLink >
+                                        </li>
+                                        <li className="nav-item">
+                                            <NavLink activeClassName='menu_active' className="nav-link" to="/signup">Sign Up</NavLink >
+                                        </li>
+                                        <li className="nav-item">
+                                            <NavLink activeClassName='menu_active' className="nav-link" to="/login">Login</NavLink >
                                         </li>
 
 
